@@ -1,0 +1,50 @@
+{
+  "name": "r2-automation",
+  "version": "1.0.0",
+  "description": "Automated operations for R2 ecosystem including swaps, staking, and liquidity management",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "start:dev": "nodemon main.js",
+    "test": "jest --watchAll",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "coverage": "jest --coverage",
+    "security": "npm audit",
+    "precommit": "npm run lint && npm run format",
+    "deploy": "node deploy.js"
+  },
+  "keywords": [
+    "ethereum",
+    "defi",
+    "r2",
+    "automation",
+    "staking",
+    "liquidity"
+  ],
+  "author": "Airdrop ALC",
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "dotenv": "^17.2.0",
+    "ethers": "^6.15.0",
+    "https-proxy-agent": "^7.0.6",
+    "socks-proxy-agent": "^8.0.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/airdropalc/R2-Money-Bot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/airdropalc/R2-Money-Bot/issues"
+  },
+  "homepage": "https://github.com/airdropalc/R2-Money-Bot#readme",
+  "jest": {
+    "preset": "ts-jest",
+    "testEnvironment": "node",
+    "coveragePathIgnorePatterns": [
+      "/node_modules/",
+      "/test/"
+    ]
+  }
+}

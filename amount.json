@@ -1,0 +1,18 @@
+{
+  "buyUsdcToR2usd": "10",
+  "sellR2usdToUsdc": "5",
+  "swapR2ToR2usd": "0",
+  "swapR2usdToR2": "0",
+  "stakewBtc": "0.001",
+  "stakeR2USD": "5",
+  "addLiquidityR2Usdc": "0",
+  "addLiquidityR2R2usd": "0",
+  "addLiquidity_R2USD_USDC": {
+    "R2USD": "0",
+    "USDC": "0"
+  },
+  "addLiquidity_sR2USD_R2USD": {
+    "sR2USD": "0",
+    "R2USD": "0"
+  }
+}
